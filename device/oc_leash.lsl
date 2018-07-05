@@ -1,57 +1,92 @@
 /*------------------------------------------------------------------------------
+
  Leash, Build 137
+
  Wendy's OpenCollar Distribution
  https://github.com/wendystarfall/opencollar
+
 --------------------------------------------------------------------------------
+
  OpenCollar v1.000 - v3.600 (OpenCollar - submission set free):
+
  Copyright © 2008, 2009, 2010 Cleo Collins, Garvin Twine, Joy Stipe, Lulu Pink,
  Master Starship, Nandana Singh, Toy Wylie, et al.
+
  The project in its original form concluded on October 19, 2011. Everything past
  this date is a derivative of OpenCollar's original SVN trunk from Google Code.
+
 --------------------------------------------------------------------------------
+
  OpenCollar v3.700 - v3.720 (nirea's ocupdater):
+
  Copyright © 2011 Kaori Gray, nirea, Satomi Ahn, Sei Lisa
+
  https://github.com/OpenCollarUpdates/ocupdater/commits/release
+
 --------------------------------------------------------------------------------
+
  OpenCollar v3.750 - v3.809 (Satomi's OpenCollarUpdates):
+
  Copyright © 2012 Satomi Ahn
+
  https://github.com/OpenCollarUpdates/ocupdater/commits/3.8
  https://github.com/OpenCollarUpdates/ocupdater/commits/beta
+
 --------------------------------------------------------------------------------
+
  OpenCollar v3.809 - v3.843 (Joy's OpenCollar Evolution):
+
  Copyright © 2013 Joy Stipe
+
  https://github.com/JoyStipe/ocupdater/commits/Project_Evolution
+
 --------------------------------------------------------------------------------
+
  OpenCollar v3.844 - v3.998 (Wendy's OpenCollar API 3.9):
+
  Copyright © 2013 Karo Weirsider, Wendy Starfall
  Copyright © 2014 littlemousy, Marissa Mistwallow, Romka Swallowtail, Sumi Perl,
  Wendy Starfall
  Copyright © 2015 Kurt Burleigh, Wendy Starfall
+
  https://github.com/OpenCollar/opencollar/commits/master
  https://github.com/WendyStarfall/opencollar/commits/master
+
 --------------------------------------------------------------------------------
+
  Virtual Disgrace Collar v1.0.0 - v2.1.1 (virtualdisgrace.com):
+
  Copyright © 2011, 2012, 2013 Wendy Starfall
  Copyright © 2014 littlemousy, Wendy Starfall
+
  https://github.com/WendyStarfall/opencollar/commits/master
  https://github.com/VirtualDisgrace/opencollar/commits/master
+
 --------------------------------------------------------------------------------
+
  OpenCollar v4.0.0 - v6.7.5 - Peanut build 9 (virtualdisgrace.com):
+
  Copyright © 2015, 2016 Garvin Twine, Romka Swallowtail, Wendy Starfall
  Copyright © 2018 Garvin Twine, klixi, Wendy Starfall
+
  https://github.com/VirtualDisgrace/opencollar/commits/master
  https://github.com/WendyStarfall/opencollar/commits/master
+
 --------------------------------------------------------------------------------
+
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
  as published by the Free Software Foundation; either version 2
  of the License, or (at your option) any later version.
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
+
  You should have received a copy of the GNU General Public License
  along with this program; if not, see www.gnu.org/licenses/gpl-2.0
+
 ------------------------------------------------------------------------------*/
 
 integer g_iBuild = 137;
