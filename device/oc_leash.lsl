@@ -160,7 +160,6 @@ string g_sCheck;
 
 integer g_iStrictModeOn;
 integer g_iTurnModeOn;
-integer g_iNoTug;
 integer g_iLeasherInRange;
 integer g_iRLVOn;
 integer g_iAwayCounter;
@@ -332,9 +331,6 @@ DoLeash(key kTarget, integer iAuth, list lPoints) {
     llTargetRemove(g_iTargetHandle);
     llStopMoveToTarget();
     g_iTargetHandle = llTarget(g_vPos, (float)g_iLength);
-    if (g_vPos != ZERO_VECTOR && !g_iNoTug) {
-        llMoveToTarget(g_vPos, 0.7);
-    }
     llMessageLinked(LINK_SAVE, LM_SETTING_SAVE, g_sSettingToken + TOK_DEST + "=" + (string)kTarget + "," + (string)iAuth + "," + (string)g_bLeashedToAvi + "," + (string)g_bFollowMode, "");
     g_iLeasherInRange=TRUE;
     ApplyRestrictions();
@@ -654,7 +650,6 @@ default {
                     g_iStrictRank = (integer)llList2String(lParam, 1);
                     ApplyRestrictions();
                 } else if (sToken == "turn") g_iTurnModeOn = (integer)sValue;
-                else if (sToken == "notug") g_iNoTug = (integer)sValue;
             }
         } else if (iNum == RLV_ON) {
             g_iRLVOn = TRUE;
