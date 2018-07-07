@@ -12,6 +12,3 @@ Settings that can be loaded directly from this directory into collars! Just copy
 
 * ``highlander~0`` disables the safety to prevent wearing multiple cores.
 ``https://raw.githubusercontent.com/WendyStarfall/opencollar/master/settings/highlander``
-
-* ``notug~1`` disables the slight tug that happens when first leashing a sub.
-``https://raw.githubusercontent.com/WendyStarfall/opencollar/master/settings/noleashtug``
